@@ -1,0 +1,65 @@
+.card {
+  border: none;
+}
+
+.card-body{
+  margin-left: -5rem !important;
+}
+
+.card-img-top{
+  border-radius: 50%;
+  width: 50%;
+}
+
+.card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #000000;
+}
+  
+.card-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+}
+  
+.price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #000000;
+  margin-left: 10rem;  
+}
+
+.total-price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+    
+  color: #000000;
+  margin-left: 14rem;
+}
+
+.total-price-value {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+    
+  color: #000000;
+  margin-left: 14rem;
+}

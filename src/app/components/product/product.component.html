@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row row-cols-3 mb-5">
+        <div class="col mt-5" *ngFor = "let product of products" (click) = "onSelect(product)">
+            <div class="card">
+                <img src="{{product.productImageUrl}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.productName }}</h5>
+                    <p class="card-text">{{ product.productDesc }}</p>
+                    <p class="card-text price"><span class="card-text price">Rs. </span>{{product.productPrice}}<span class="card-text price">/=</span>
+                        <button class="btn btn-secondary ml-4" type="button" (click)="addToCart(product)">Add to Cart</button>
+                    </p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+

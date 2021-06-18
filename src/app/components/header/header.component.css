@@ -1,0 +1,11 @@
+.white {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+<div class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"> {{ title }} </span>
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink = "/" (click)="changeProductLinkColorAndHeaderContentOnClick()" 
+                        [ngClass] ="{'white' : toggleProductLink, 'black': !toggleProductLink}"> 
+                            Products 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink = "/cart" (click)="changeCartLinkColorAndHeaderContentOnClick()"
+                        [ngClass] ="{'white' : toggleCartLink, 'black': !toggleCartLink}"> 
+                            My Cart 
+                    </a>
+                </li>
+            </ul>   
+        </nav>
+    </div>
+</div>
